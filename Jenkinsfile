@@ -1,4 +1,5 @@
 pipeline {
+    echo
     agent { label "dev-server" }
     stages{
         stage("Clone Code"){
